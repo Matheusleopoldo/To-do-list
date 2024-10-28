@@ -19,6 +19,35 @@ input {
 
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    width: 93%;
+}
+
+li {
+   background-color: rgb(170, 240, 245);
+   padding: 10px;
+   color:darkblue;
+   margin: 10px auto;
+   border-radius: 5px;
+    font-weight: bold;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+span:hover {
+    font-size: large;
+}
+
+
 button {
     background-color: rgb(155, 198, 236);
     font-size: 18px;
